@@ -9,7 +9,7 @@ In order to be considered for the iOS position, you mush complete the following 
 
 1. Fork this repository (if you don't know how to do that, Google is your friend)
 2. Create a *source* folder to contain your code. 
-3. In the *source* directory, please create an Android app that accomplishes the following:
+3. In the *source* directory, please create an iOS app that accomplishes the following:
 	- Connect to the [Github API](http://developer.github.com/)
 	- Find the [rails/rails](http://github.com/rails/rails) repository
 	- Find the most recent commits (choose at least 25 or more of the commits)
