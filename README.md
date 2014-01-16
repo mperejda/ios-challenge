@@ -14,7 +14,7 @@ In order to be considered for the iOS position, you mush complete the following 
 	- Find the [rails/rails](http://github.com/rails/rails) repository
 	- Find the most recent commits (choose at least 25 or more of the commits)
 	- Create a UITableView that groups the recent commits by author in a custom view. 
-	- [Click here](example.jpg) for a screenshot mock up of what the final product should look like
+	- [Click here](example.png) for a screenshot mock up of what the final product should look like
 4. Commit and Push your code to your new repository
 5. Send us a pull request, we will review your code and get back to you
 
