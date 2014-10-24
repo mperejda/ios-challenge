@@ -10,12 +10,6 @@
     [super viewDidLoad];
     
     //get data on commits
-    
-//    NSString *requestURL = [NSString stringWithFormat:@"https://api.github.com/repos/rails/rails/commits"];
-//    
-//    NSLog(@"Request URL: %@", requestURL);
-    
-    //Fetch Videos
     NSURL *nsURL = [NSURL URLWithString:@"https://api.github.com/repos/rails/rails/commits"];
     
     NSLog(@"URL set to: %@", nsURL);
@@ -30,9 +24,6 @@
     
     // Create NSURLConnection and start the request.
     NSURLConnection *nsUrlConnection=[[NSURLConnection alloc]initWithRequest:nsMutableURLRequest delegate:self];
-
-    
-    self.tableData = @[@"matt", @"jonhn", @"alex", @"emma", @"jackie"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,42 +60,20 @@
     NSLog(@"names: %@", _names);
     NSLog(@"messages: %@", _messages);
     NSLog(@"links: %@", _links);
-    NSLog(@"table data %@", [_names objectAtIndex:20]);
-    
+
    [self.tableView reloadData];
     
     NSLog(@"table reloaded");
-    
-
-        
-    
-    
-//    //Extract & sanitize URIs
-//    int i;
-//    for (i = 0; i < [_images count]; i++)
-//    {
-//    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: [_images objectAtIndex:i]]];
-//        
-//        [self.imagesData addObject: imageData];
-//        
-//    }
-//    
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)nsUrlConnection {
     
     NSLog(@"Response Recieved");
-    
-    //NSLog(@"RESPONSE: %@", [[NSString alloc] initWithData:_responseData encoding:NSUTF8StringEncoding]);
 }
 
 - (void)connection:(NSURLConnection *)nsUrlConnection didFailWithError:(NSError *)error {
     NSLog(@"CONNECTION ERROR: %@", [error localizedDescription]);
 }
-
-
-
-
 
 //Table View Setup
 
@@ -123,32 +92,18 @@
     
 
     
- 
+ // implement caching and add images.
 //    cell.imageView.image =  [UIImage imageWithData:[[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: [_images objectAtIndex:indexPath.row]]]];
     
     cell.textLabel.text = [_names objectAtIndex:indexPath.row];
-    
     cell.detailTextLabel.text = [_messages objectAtIndex:indexPath.row];
     
-    
-    
     return cell;
-    
-    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *rowValue = self.names[indexPath.row];
-    NSString * message = @"Let's check out the details.";
-    
-//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Commit Selected" message:message delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Take me there", nil];
-//    
-//    
-//    [alertView show];
     
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.links[indexPath.row]]];
-    
-    
     
 }
 
