@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77D268919FA15450034DA7A /* voulette 180pt.png in Resources */ = {isa = PBXBuildFile; fileRef = E77D268819FA15450034DA7A /* voulette 180pt.png */; };
+		E7955BE719F9E5940077F53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7955BE619F9E5940077F53E /* main.m */; };
+		E7955BEA19F9E5940077F53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7955BE919F9E5940077F53E /* AppDelegate.m */; };
+		E7955BED19F9E5940077F53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7955BEC19F9E5940077F53E /* ViewController.m */; };
+		E7955BF019F9E5940077F53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7955BEE19F9E5940077F53E /* Main.storyboard */; };
+		E7955BF219F9E5940077F53E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7955BF119F9E5940077F53E /* Images.xcassets */; };
+		E7955BF519F9E5940077F53E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7955BF319F9E5940077F53E /* LaunchScreen.xib */; };
+		E7955C0119F9E5950077F53E /* wellframe_ios_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7955C0019F9E5950077F53E /* wellframe_ios_challengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7955BFB19F9E5950077F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7955BD919F9E5940077F53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7955BE019F9E5940077F53E;
+			remoteInfo = "wellframe-ios-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77D268819FA15450034DA7A /* voulette 180pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "voulette 180pt.png"; path = "../../../../Desktop/voulette 180pt.png"; sourceTree = "<group>"; };
+		E7955BE119F9E5940077F53E /* wellframe-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wellframe-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7955BE519F9E5940077F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7955BE619F9E5940077F53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7955BE819F9E5940077F53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7955BE919F9E5940077F53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7955BEB19F9E5940077F53E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7955BEC19F9E5940077F53E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7955BEF19F9E5940077F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7955BF119F9E5940077F53E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7955BF419F9E5940077F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E7955BFA19F9E5950077F53E /* wellframe-ios-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wellframe-ios-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7955BFF19F9E5950077F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7955C0019F9E5950077F53E /* wellframe_ios_challengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wellframe_ios_challengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7955BDE19F9E5940077F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7955BF719F9E5950077F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7955BD819F9E5940077F53E = {
+			isa = PBXGroup;
+			children = (
+				E7955BE319F9E5940077F53E /* wellframe-ios-challenge */,
+				E7955BFD19F9E5950077F53E /* wellframe-ios-challengeTests */,
+				E7955BE219F9E5940077F53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7955BE219F9E5940077F53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7955BE119F9E5940077F53E /* wellframe-ios-challenge.app */,
+				E7955BFA19F9E5950077F53E /* wellframe-ios-challengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7955BE319F9E5940077F53E /* wellframe-ios-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				E7955BE819F9E5940077F53E /* AppDelegate.h */,
+				E7955BE919F9E5940077F53E /* AppDelegate.m */,
+				E7955BEB19F9E5940077F53E /* ViewController.h */,
+				E7955BEC19F9E5940077F53E /* ViewController.m */,
+				E7955BEE19F9E5940077F53E /* Main.storyboard */,
+				E7955BF119F9E5940077F53E /* Images.xcassets */,
+				E77D268819FA15450034DA7A /* voulette 180pt.png */,
+				E7955BF319F9E5940077F53E /* LaunchScreen.xib */,
+				E7955BE419F9E5940077F53E /* Supporting Files */,
+			);
+			path = "wellframe-ios-challenge";
+			sourceTree = "<group>";
+		};
+		E7955BE419F9E5940077F53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7955BE519F9E5940077F53E /* Info.plist */,
+				E7955BE619F9E5940077F53E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7955BFD19F9E5950077F53E /* wellframe-ios-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7955C0019F9E5950077F53E /* wellframe_ios_challengeTests.m */,
+				E7955BFE19F9E5950077F53E /* Supporting Files */,
+			);
+			path = "wellframe-ios-challengeTests";
+			sourceTree = "<group>";
+		};
+		E7955BFE19F9E5950077F53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7955BFF19F9E5950077F53E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7955BE019F9E5940077F53E /* wellframe-ios-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7955C0419F9E5950077F53E /* Build configuration list for PBXNativeTarget "wellframe-ios-challenge" */;
+			buildPhases = (
+				E7955BDD19F9E5940077F53E /* Sources */,
+				E7955BDE19F9E5940077F53E /* Frameworks */,
+				E7955BDF19F9E5940077F53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wellframe-ios-challenge";
+			productName = "wellframe-ios-challenge";
+			productReference = E7955BE119F9E5940077F53E /* wellframe-ios-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7955BF919F9E5950077F53E /* wellframe-ios-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7955C0719F9E5950077F53E /* Build configuration list for PBXNativeTarget "wellframe-ios-challengeTests" */;
+			buildPhases = (
+				E7955BF619F9E5950077F53E /* Sources */,
+				E7955BF719F9E5950077F53E /* Frameworks */,
+				E7955BF819F9E5950077F53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7955BFC19F9E5950077F53E /* PBXTargetDependency */,
+			);
+			name = "wellframe-ios-challengeTests";
+			productName = "wellframe-ios-challengeTests";
+			productReference = E7955BFA19F9E5950077F53E /* wellframe-ios-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7955BD919F9E5940077F53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthew Perejda";
+				TargetAttributes = {
+					E7955BE019F9E5940077F53E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E7955BF919F9E5950077F53E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E7955BE019F9E5940077F53E;
+					};
+				};
+			};
+			buildConfigurationList = E7955BDC19F9E5940077F53E /* Build configuration list for PBXProject "wellframe-ios-challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7955BD819F9E5940077F53E;
+			productRefGroup = E7955BE219F9E5940077F53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7955BE019F9E5940077F53E /* wellframe-ios-challenge */,
+				E7955BF919F9E5950077F53E /* wellframe-ios-challengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7955BDF19F9E5940077F53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7955BF019F9E5940077F53E /* Main.storyboard in Resources */,
+				E7955BF519F9E5940077F53E /* LaunchScreen.xib in Resources */,
+				E77D268919FA15450034DA7A /* voulette 180pt.png in Resources */,
+				E7955BF219F9E5940077F53E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7955BF819F9E5950077F53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7955BDD19F9E5940077F53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7955BED19F9E5940077F53E /* ViewController.m in Sources */,
+				E7955BEA19F9E5940077F53E /* AppDelegate.m in Sources */,
+				E7955BE719F9E5940077F53E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7955BF619F9E5950077F53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7955C0119F9E5950077F53E /* wellframe_ios_challengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7955BFC19F9E5950077F53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7955BE019F9E5940077F53E /* wellframe-ios-challenge */;
+			targetProxy = E7955BFB19F9E5950077F53E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7955BEE19F9E5940077F53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7955BEF19F9E5940077F53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7955BF319F9E5940077F53E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7955BF419F9E5940077F53E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7955C0219F9E5950077F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7955C0319F9E5950077F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7955C0519F9E5950077F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wellframe-ios-challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7955C0619F9E5950077F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "wellframe-ios-challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7955C0819F9E5950077F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wellframe-ios-challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wellframe-ios-challenge.app/wellframe-ios-challenge";
+			};
+			name = Debug;
+		};
+		E7955C0919F9E5950077F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wellframe-ios-challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wellframe-ios-challenge.app/wellframe-ios-challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7955BDC19F9E5940077F53E /* Build configuration list for PBXProject "wellframe-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7955C0219F9E5950077F53E /* Debug */,
+				E7955C0319F9E5950077F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7955C0419F9E5950077F53E /* Build configuration list for PBXNativeTarget "wellframe-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7955C0519F9E5950077F53E /* Debug */,
+				E7955C0619F9E5950077F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7955C0719F9E5950077F53E /* Build configuration list for PBXNativeTarget "wellframe-ios-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7955C0819F9E5950077F53E /* Debug */,
+				E7955C0919F9E5950077F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7955BD919F9E5940077F53E /* Project object */;
+}
